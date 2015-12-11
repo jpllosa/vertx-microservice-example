@@ -20,7 +20,6 @@ public class LogService {
 			}
 
 			HttpServerResponse response = request.response();
-			//response.putHeader("content-type", "text/plain");
 			response.end();
 		});
 	
